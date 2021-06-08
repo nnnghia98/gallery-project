@@ -1,0 +1,42 @@
+.picture-box {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  height: 450px;
+  background-image: linear-gradient(#FFFFFF, #C8C8C8);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.picture-frame {
+  width: 800px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.picture-frame > img {
+  width: 100%;
+}
+
+.picture-frame > div {
+  position: absolute;
+  bottom: 0;
+  padding: 0 15px 5px;
+  color: white;
+  background-color: #000000ad;
+}
+
+.picture-frame > div > h2 {
+  margin-top: 0;
+}
+
+span {
+  flex: 1;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
