@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PictureFrame from '../PictureFrame/PictureFrame';
 import ThumbnailBar from '../ThumbnailBar/ThumbnailBar';
-import './styles.css';
+import './Gallery.css';
 
 const images = [
   {

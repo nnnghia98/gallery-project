@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Arrow from '../../assets/Arrow';
-import './styles.css';
+import './PictureFrame.css';
 
 class PictureFrame extends Component {
   constructor(props) {
